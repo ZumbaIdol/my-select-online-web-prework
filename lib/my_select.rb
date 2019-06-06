@@ -1,3 +1,3 @@
 def my_select(collection)
- collection.select {|item| block} 
+ collection.select do {|item| block} 
 end
